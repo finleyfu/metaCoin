@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+MetaCoin	./contracts/MetaCoin.sol	/^contract MetaCoin {$/;"	c
+Transfer	./contracts/MetaCoin.sol	/^	event Transfer(address indexed _from, address indexed _to, uint256 _value);$/;"	e
+balances (address=>uint)	./contracts/MetaCoin.sol	/^	mapping (address => uint) balances;$/;"	m
+convert	./contracts/ConvertLib.sol	/^	function convert(uint amount, uint conversionRate) public pure returns (uint convertedAmount)$/;"	f
+getBalance	./contracts/MetaCoin.sol	/^	function getBalance(address addr) public view returns(uint) {$/;"	f
+getBalanceInEth	./contracts/MetaCoin.sol	/^	function getBalanceInEth(address addr) public view returns(uint){$/;"	f
+sendCoin	./contracts/MetaCoin.sol	/^	function sendCoin(address receiver, uint amount) public returns(bool sufficient) {$/;"	f
